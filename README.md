@@ -1,1 +1,1 @@
-K8S Manifest development
+# Branches for developing and testing kubernetes manifest files

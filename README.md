@@ -1,1 +1,1 @@
-# Branches for developing and testing kubernetes manifest files
+# Branches for developing and testing kubernetes manifest files.

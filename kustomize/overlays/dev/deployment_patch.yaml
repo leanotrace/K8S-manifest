@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-2
+  labels:
+    app: nginx-dev
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx-dev
+  template:
+    metadata:
+      labels:
+        app: nginx-dev
+    spec:
+      serviceAccountName: anyuid-sa
+
+
